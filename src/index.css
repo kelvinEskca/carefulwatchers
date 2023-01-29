@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 375px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  position: relative;
+}
+
+h1,h2,h3,p,li,ol,ul,a,label,input,textarea,select,form,div,small,span,b{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+header,main,footer,section,div,form,label,input,span,nav,aside{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+section .wrapper{
+  padding: 1rem;
+}
+
+label{
+  margin-bottom: 1rem;
+}
+
+input,select,textarea{
+  background-color: transparent;
+  border: 2px solid #28282B;
+  height: 2.5rem;
+  color: #111;
+  padding: .3rem;
+  border-radius: .2rem;
+  font-weight: 400;
+  font-size: .85rem;
+}
+
+input:focus,input:active,select:active,select:focus,textarea:active,textarea:focus,label .rmsc .dropdown-container:active,label .rmsc .dropdown-container:focus{
+  outline: none;
+  border: 2px solid #c8cdd1;
+}
+
+textarea{
+  height: 7rem;
+  margin-top: .3rem;
+  width: 100%;
+}
+
+select{
+  width: 100%;
+  margin-top: .3rem;
+}
+
+button{
+  width: 10rem;
+  height: 2.8rem;
+  font-size: .9rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  background-color: #e6961f;
+  color: #fff;
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+}
+
+.hero{
+  height: 80vh;
+  justify-content: center;
+  background-color: #fbfbfb;
+}
+
+.hero .box span{
+  color: #e6961f;
+  font-weight: 400;
+  font-size: .8rem;
+}
+
+.hero .box .heading{
+  color: #ffff;
+  font-weight:400;
+  margin-block: .5rem;
+  font-size: 1.2rem;
+}
+
+.hero .box .paragraph{
+  color: #c8cdd1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+.faq span{
+  color: #e6961f;
+  font-weight: 400;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+
+.faq .sub-heading{
+  color: #e6961f;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.faq .box .paragraph{
+  font-size: .9rem;
+  color:#c8cdd1;
+  line-height: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.faq .box .top{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.faq .box .top .heading{
+  color: #fff;
+  font-weight: 501;
+  font-size: .8rem;
+}
+
+.faq .box{
+  margin-bottom: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  border-bottom: 1px solid #c8cdd1;
+  cursor: pointer;
+  transition: height .4s ease-in-out;
+}
+
+.faq .drop{
+  height: 300px;
+}
+
+.features{
+  background-color: #28282B;
+  padding-block: 2rem;
+}
+
+.features .wrapper{
+  align-items: center;
+  justify-content: center;
+}
+
+.features .sub-heading{
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #c8cdd1;
+  max-width: 600px;
+}
+
+.features span{
+  text-align: center;
+  font-weight: 501;
+  color: #e6961f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.features .box{
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  height: 8rem;
+}
+
+.features .box .paragraph{
+  text-align: center;
+  line-height: 1.5rem;
+  font-weight: 300;
+  font-size: .9rem;
+  color: #c8cdd1;
+  max-width: 400px;
+}
+
+.features .box .heading{
+  margin-bottom: .5rem;
+  font-weight: 501;
+  color: #fff;
+}
+
+.hero .box{
+  max-width: 600px;
+}
+
+.end .boxes{
+  align-items: center;
+  justify-content: center;
+}
+
+.end .box{
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.end .box form{
+  align-items: center;
+  justify-content: center;
+}
+
+.end .box label{
+  align-items: center;
+  justify-content: center;
+}
+
+.end .box span,.end .box .paragraph,.end .box .heading{
+  text-align: center;
+  align-items: center;
+}
+
+.features span{
+  color: #fff;
+}
+
+.hero{
+  background-image: url(../public/images/pexels-cottonbro-studio-5474025.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #666;
+  background-blend-mode: multiply;
+}
+
+.faq{
+  background-color: #222;
+}
+
+.features{
+  background-color: #111;
+}
+
+.end{
+  background-image: none;
+  background-color: #111;
+}
+
+.hero input{
+  color: #fff;
+}
+
+.end input{
+  color: #28282B;
+}
+
+.footer{
+  background-color: #eff2f7;
+  padding: 1rem;
+}
+
+.footer .footer-box{
+  margin-bottom: 2rem;
+}
+
+.footer .footer-box .heading{
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.footer .footer-box .paragraph{
+  max-width: 400px;
+}
+
+.footer .links a{
+  color: #111;
+}
+
+.footer .links li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.footer .social .list{
+  display: flex;
+  flex-direction: row;
+}
+
+.header{
+  background-color: #eff2f7;
+  height: 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: fixed;
+}
+
+.logo{
+  width: 100px;
+}
+
+main{
+  padding-top: 4rem;
+}
+
+@media screen and (min-width:376px){
+  body{
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width:800px){
+  .features .boxes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .hero .wrapper,.features .wrapper,.faq .wrapper,.footer{
+    padding: 4rem;
+  }
+
+  .hero{
+    height: 100vh;
+  }
+
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+  }
+
+  .footer .footer-box{
+    margin: 0;
+  }
+}
+
+@media screen and (min-width:1000px){
+  .features .boxes{
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .features{
+    justify-content: space-between;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer .footer-box{
+    width: 50%;
+  }
+
+  .footer .links{
+    width: 30%;
+  }
+
+  .footer .social{
+    width: 20%;
+  }
+}
