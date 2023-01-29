@@ -118,7 +118,7 @@ button{
 
 .faq .box .paragraph{
   font-size: .9rem;
-  color:#c8cdd1;
+  color:#28282B;
   line-height: 1.2rem;
   font-weight: 300;
   margin-bottom: 1rem;
@@ -132,7 +132,7 @@ button{
 }
 
 .faq .box .top .heading{
-  color: #fff;
+  color: #111;
   font-weight: 501;
   font-size: .8rem;
 }
@@ -147,7 +147,7 @@ button{
 }
 
 .faq .drop{
-  height: 300px;
+  height: auto;
 }
 
 .features{
@@ -242,7 +242,7 @@ button{
 }
 
 .faq{
-  background-color: #222;
+  background-color: #eff2f7;
 }
 
 .features{

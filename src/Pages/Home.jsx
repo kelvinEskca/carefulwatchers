@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 const Home = () => {
     const [faq,setFaq] = useState(0);
     const accordion = (id) =>{
-        setFaq(id);
+        setFaq(faq === id ? 0 : id);
     }
     return (
         <>
@@ -55,10 +55,10 @@ const Home = () => {
                         <span>FAQ</span>
                         <h3 className="sub-heading">Frequently Asked Questions</h3>
                         <div className="boxes">
-                            <div className={`box ${faq === 1 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(1)}}>
+                            <div className={`box ${faq === 1 ? "drop" : ""}`} onClick={()=>{accordion(1)}}>
+                                <div className={`top`}>
                                     <h3 className="heading">Who are we ? ( Careful Watchers )</h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 1 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -66,10 +66,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 2 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(2)}}>
+                            <div className={`box ${faq === 2 ? "drop" : ""}`} onClick={()=>{accordion(2)}}>
+                                <div className={`top`}>
                                     <h3 className="heading">Why is there a Careful Watchers  Wait-list?</h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 2 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -77,10 +77,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 3 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(3)}}>
+                            <div className={`box ${faq === 3 ? "drop" : ""}`} onClick={()=>{accordion(3)}}>
+                                <div className={`top`}>
                                     <h3 className="heading">What is a penetration testing?</h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 3 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -90,10 +90,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 4 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(4)}}>
+                            <div className={`box ${faq === 4 ? "drop" : ""}`}  onClick={()=>{accordion(4)}}>
+                                <div className={`top`}>
                                     <h3 className="heading">Why do I need a (Web) Penetration Test? </h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 4 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -108,10 +108,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 5 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(5)}}>
+                            <div className={`box ${faq === 5 ? "drop" : ""}`}  onClick={()=>{accordion(5)}}>
+                                <div className={`top`}>
                                     <h3 className="heading">How much does a Web Penetration Test cost? </h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 5 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -121,10 +121,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 6 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(6)}}>
+                            <div className={`box ${faq === 6 ? "drop" : ""}`} onClick={()=>{accordion(6)}}>
+                                <div className={`top`}>
                                     <h3 className="heading">How long does a Penetration Testing take? </h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 6 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -138,10 +138,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 7 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(7)}}>
+                            <div className={`box ${faq === 7 ? "drop" : ""}`} onClick={()=>{accordion(7)}}>
+                                <div className={`top`} >
                                     <h3 className="heading">When do I need a  Pentest? </h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 7 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -155,10 +155,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 8 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(8)}}>
+                            <div className={`box ${faq === 8 ? "drop" : ""}`} onClick={()=>{accordion(8)}}>
+                                <div className={`top`} >
                                     <h3 className="heading">How soon can you start on my project? </h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 8 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -166,10 +166,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 9 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(9)}}>
+                            <div className={`box ${faq === 9 ? "drop" : ""}`} onClick={()=>{accordion(9)}}>
+                                <div className={`top`} >
                                     <h3 className="heading">Is Careful Watchers Offers Automated Or Manual Penetration Testing?</h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 9 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -177,10 +177,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 11 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(11)}}>
+                            <div className={`box ${faq === 10 ? "drop" : ""}`} onClick={()=>{accordion(10)}}>
+                                <div className={`top`}>
                                     <h3 className="heading">What do we need to provide before you can carry out a Pentest on my project?</h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 10 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
@@ -190,10 +190,10 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div className={`box ${faq === 12 ? "drop" : ""}`}>
-                                <div className={`top`} onClick={()=>{accordion(12)}}>
+                            <div className={`box ${faq === 11 ? "drop" : ""}`} onClick={()=>{accordion(11)}}>
+                                <div className={`top`}>
                                     <h3 className="heading">Is carefulwatchers only offering Web penetration testing service? </h3>
-                                    <h3 className="heading">+</h3>
+                                    <h3 className="heading">{faq === 11 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
