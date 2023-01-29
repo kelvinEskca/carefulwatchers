@@ -11,8 +11,8 @@ const Footer = () => {
             <div className="footer-box links">
                 <h3 className="heading">CONTACT US</h3>
                 <ul className="list">
-                    <li><img src="../images/icons8-composing-mail-30.png" alt="icons8-composing-mail-30" /><Link to="mailto:info@carefulwatchers.co.uk">info@carefulwatchers.co.uk</Link></li>
-                    <li><img src="../images/icons8-ringer-volume-30.png" alt="icons8-ringer-volume-30" /><Link to="tel:+44-7442-104683">+44-7442-104683</Link></li>
+                    <li><img src="../images/icons8-composing-mail-30.png" alt="icons8-composing-mail-30" /><Link to={`mailto:info@carefulwatchers.co.uk`}>info@carefulwatchers.co.uk</Link></li>
+                    <li><img src="../images/icons8-ringer-volume-30.png" alt="icons8-ringer-volume-30" /><Link to={`tel:+44-7442-104683`}>+44-7442-104683</Link></li>
                     <li><img src="../images/icons8-link-30.png" alt="icons8-link-30" /><Link to="https://carefulwatchers.co.uk">https://carefulwatchers.co.uk</Link></li>
                 </ul>
             </div>
