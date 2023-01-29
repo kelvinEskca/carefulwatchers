@@ -20,7 +20,7 @@ const Home = () => {
                                 </p>
                                 <form action="#" className="form">
                                     <label htmlFor="#"><input type="email" placeholder="Email"/></label>
-                                    <label htmlFor="#"><button>Sign Up</button></label>
+                                    <label htmlFor="#"><button>Join Waitlist</button></label>
                                 </form>
                             </div>
                         </div>
@@ -213,7 +213,7 @@ const Home = () => {
                                 <p className="paragraph">We are in business to design Web Security solutions for ourvarious clients – domestic and corporate. Asides from ourccore services, we also offer consultancy, training and technical support to our numerous clients</p>
                                 <form action="#" className="form">
                                     <label htmlFor="#"><input type="email" placeholder="Email"/></label>
-                                    <label htmlFor="#"><button>Sign Up</button></label>
+                                    <label htmlFor="#"><button>Join Waitlist</button></label>
                                 </form>
                             </div>
                         </div>
