@@ -30,31 +30,28 @@ const Home = () => {
                     <div className="wrapper">
                         <div className="boxes">
                             <div className="box">
-                                <span>Subject: Payment Details update</span>
+                                <span>Subject: Bug Report !</span>
                                 <div className="details">
                                     <div className="top">
-                                        <div className="circle"><h3 className="heading">G</h3></div>
+                                        <div className="circle"><h3 className="heading">C</h3></div>
                                         <div className="text">
-                                            <h3 className="heading">Gavin Bell {`<gavin@example.com>`}</h3>
-                                            <p className="paragraph">To: finance@breachless.ai</p>
+                                            <h3 className="heading">Sender : Careful Watchers</h3>
+                                            <p className="paragraph">To: {`<vulnerable@example.com>`}</p>
                                         </div>
                                     </div>
 
                                     <div className="colored-bg">
-                                        <h3 className="heading">This may be phishing through a hacked email account.</h3>
-                                        <p className="paragraph">Gavin does not work in the finance department at ExampleCo.</p>
-                                        <span><h3 className="heading">Action:</h3><p className="paragraph">Verify this request through a different form of communication, such as a direct phone call or email to another employee at ExampleCo.</p></span>
+                                        <h3 className="heading">Hi vulnerable@example.com Team,</h3>
+                                        <p className="paragraph">We are Careful Watchers, a group of  cybersecurity professionals that help organizations identify vulnerabilities and do well by reporting them so they could be fix.</p>
+                                        <span><p className="paragraph">In our recent findings, a critical vulnerability was identified on your domain (website)</p></span>
                                     </div>
 
-                                    <p className="paragraph">Hi Corben,</p>
-                                    <p className="paragraph">Our bank account has recently changed. Please use the following bank information for all future payments:</p>
+                                    <p className="paragraph">This vulnerability can give room for unauthorized sensitive data access if exploited by malicious actors, and other secondary attacks.</p>
+                                    <p className="paragraph">We will be glad to share the detail of our findings with you and your team.</p>
 
-                                    <span><h3 className="heading">Account number:</h3><p className="paragraph">1234567890</p></span>
-                                    <span><h3 className="heading">Routing number:</h3><p className="paragraph">012345678</p></span>
-
-                                    <p className="paragraph">Failure to update will result in service termination.</p>
+                                    <p className="paragraph">We await to hear from you as soon as possible.</p>
                                     <p className="paragraph">Thanks,</p>
-                                    <p className="paragraph">Gavin</p>
+                                    <p className="paragraph">CarefulWatchers.</p>
                                 </div>
                             </div>
                         </div>
@@ -64,9 +61,9 @@ const Home = () => {
                 <section className="section features">
                     <div className="wrapper">
                         <span>Problem</span>
-                        <h3 className="sub-heading">Web app monitoring and audit services are highly required due to security concerns raised by the rising popularity of websites with web applications.</h3>
+                        <h3 className="sub-heading">Web app monitoring and audit services are highly required due to security concerns raised by the rising popularity of websites with web applications. The likelihood of having harmful information increases as web applications are more easily created and shared, Careful Watchers offers a realtime web security solutions as listed below:</h3>
                         <span>Solution</span>
-                        <h3 className="sub-heading">We have made it our priority to help your business tackle insecurity by providing: <b>Vulnerability scanning and Assessment</b>, <b>Hot Based Scanning</b>, <b>Database Scanning</b></h3>
+                        <h3 className="sub-heading"><b>Vulnerability scanning and Assessment</b>, <b>Hot Based Scanning</b>, <b>Database Scanning</b>, <b>Full Domain Directory Enumeration.</b>,<b>Cloud Hosting Vulnerability Enumeration.</b>, <b>Remediation, Mitigation Of Threats</b>,<b>and Removal Of Virus/Malware and more</b></h3>
                     </div>
                 </section>
 
@@ -187,7 +184,7 @@ const Home = () => {
 
                             <div className={`box ${faq === 9 ? "drop" : ""}`} onClick={()=>{accordion(9)}}>
                                 <div className={`top`} >
-                                    <h3 className="heading">Is Careful Watchers Offers Automated Or Manual Penetration Testing?</h3>
+                                    <h3 className="heading">Does CarefulWatchers Offer Automated Or Manual Penetration Testing?</h3>
                                     <h3 className="heading">{faq === 9 ? ("-") : ("+")}</h3>
                                 </div>
 
@@ -211,12 +208,12 @@ const Home = () => {
 
                             <div className={`box ${faq === 11 ? "drop" : ""}`} onClick={()=>{accordion(11)}}>
                                 <div className={`top`}>
-                                    <h3 className="heading">Is carefulwatchers only offering Web penetration testing service? </h3>
+                                    <h3 className="heading">Does CarefulWatchers only offer Web Penetration Testing service?  </h3>
                                     <h3 className="heading">{faq === 11 ? ("-") : ("+")}</h3>
                                 </div>
 
                                 <div className="bottom">
-                                    <p className="paragraph">Careful Watchers is mainly focused on web penetration testing but adequately renders Cyber Security services such as: Security Consulting Services, Web Security Policy writing, Third Party risk assessment, Employee Awareness Training etc.</p>
+                                    <p className="paragraph">CarefulWatchers is focused mainly on web penetration testing but adequately renders Cyber Security services such as Security Consulting Services, Web Security Policy Writing, Third-Party Risk Assessment, Employee Awareness Training etc.</p>
                                 </div>
                             </div>
                         </div>
