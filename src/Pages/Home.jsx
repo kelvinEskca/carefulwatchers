@@ -65,22 +65,8 @@ const Home = () => {
                     <div className="wrapper">
                         <span>Problem</span>
                         <h3 className="sub-heading">Web app monitoring and audit services are highly required due to security concerns raised by the rising popularity of websites with web applications.</h3>
-                        <div className="boxes">
-                            <div className="box">
-                                <h3 className="heading">Problem 1.</h3>
-                                <p className="paragraph">Today, securing online applications against both targeted and broader attacks is more difficult than ever.</p>
-                            </div>
-
-                            <div className="box">
-                                <h3 className="heading">Problem 2.</h3>
-                                <p className="paragraph">However, the technique used and the attack vectors targeted remain unchanged despite continuous evolution.</p>
-                            </div>
-
-                            <div className="box">
-                                <h3 className="heading">Problem 3.</h3>
-                                <p className="paragraph">This could also result in data loss, data corruption, or data manipulation. In turn, this puts organizations at a significant risk.</p>
-                            </div>
-                        </div>
+                        <span>Solution</span>
+                        <h3 className="sub-heading">We have made it our priority to help your business tackle insecurity by providing: <b>Vulnerability scanning and Assessment</b>, <b>Hot Based Scanning</b>, <b>Database Scanning</b></h3>
                     </div>
                 </section>
 
