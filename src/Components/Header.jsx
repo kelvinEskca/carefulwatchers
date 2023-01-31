@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
     return (
         <header className="header">
-            <img src="../images/logo.png" alt="logo" className="logo"/>
+            <Link to="/"><img src="../images/logo.png" alt="logo" className="logo"/></Link>
         </header>
     );
 }

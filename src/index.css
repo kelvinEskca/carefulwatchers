@@ -93,7 +93,7 @@ button{
   color: #ffff;
   font-weight:400;
   margin-block: .5rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .hero .box .paragraph{
@@ -104,16 +104,17 @@ button{
 }
 
 .faq span{
-  color: #e6961f;
+  color: #222;
   font-weight: 400;
-  font-size: .8rem;
+  font-size: 1rem;
   margin-bottom: .5rem;
 }
 
 .faq .sub-heading{
-  color: #e6961f;
+  color: #000;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 .faq .box .paragraph{
@@ -279,10 +280,14 @@ button{
 
 .footer .footer-box .paragraph{
   max-width: 400px;
+  font-weight: 501;
+  font-size: .8rem;
 }
 
 .footer .links a{
   color: #111;
+  font-weight: 501;
+  font-size: .8rem;
 }
 
 .footer .links li{
@@ -297,20 +302,158 @@ button{
 }
 
 .header{
-  background-color: #eff2f7;
   height: 4rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  position: fixed;
+  position: absolute;
 }
 
 .logo{
-  width: 100px;
+  width: 150px;
 }
 
-main{
-  padding-top: 4rem;
+.waitlist{
+  background-color: #111;
+  height: 100vh;
+  justify-content: center;
+}
+
+.waitlist input{
+  border: 2px solid #c8cdd1;
+  color: #fff;
+  height: 2.8rem;
+}
+
+.waitlist .box .heading{
+  font-size: 2rem;
+  margin-bottom: .5rem;
+  color: #fff;
+  font-weight: 501;
+}
+
+.waitlist .box .paragraph{
+  color: #c8cdd1;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  max-width: 500px;
+}
+
+
+
+.update .box{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 1rem;
+  border-radius: .3rem;
+}
+
+.update .box > span{
+  font-weight: 501;
+  color: #28282B;
+  border-bottom: 2px solid #e6e6e6;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.update .box .top{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.update .box .top .text{
+  width: 94%;
+}
+
+.update .box .top .text .heading{
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.update .box .paragraph{
+  font-weight: 400;
+  font-size: .9rem;
+  color: #666;
+}
+
+.update .box .top .circle{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #28282B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.update .box .top .circle .heading{
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.update .box .colored-bg{
+  background-color: #e6961f;
+  padding: 1rem;
+  border-radius: .3rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+
+.update .box .details span{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: .5rem;
+}
+
+.update .box .colored-bg span{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.update .box .colored-bg > .heading{
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+
+.update .box .colored-bg  .paragraph{
+  margin-bottom: .5rem;
+  font-size: .9rem;
+  color: #222;
+}
+
+.update .box .colored-bg span .heading{
+  font-weight: 400;
+}
+
+.update .box .colored-bg span .paragraph{
+  width: 94%;
+  color: #222;
+}
+
+.update .box .details > span .paragraph{
+  color: #222;
+}
+
+.update .box .details > span .heading{
+  font-weight: 400;
+}
+
+.update .box .details > .paragraph{
+  margin-bottom: 1rem;
+}
+
+.update .box .details > span{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 @media screen and (min-width:376px){
@@ -327,7 +470,7 @@ main{
     margin-top: 1rem;
   }
 
-  .hero .wrapper,.features .wrapper,.faq .wrapper,.footer{
+  .hero .wrapper,.features .wrapper,.faq .wrapper,.footer,.update .wrapper{
     padding: 4rem;
   }
 
@@ -343,6 +486,44 @@ main{
 
   .footer .footer-box{
     margin: 0;
+  }
+
+  .waitlist .boxes{
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .waitlist .box{
+    width: 49%;
+  }
+
+  .waitlist .label-row{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .waitlist .label-row label{
+    width:49%;
+  }
+
+  .hero .box .heading{
+    font-size: 1.8rem;
+  }
+
+  .update .box .details span{
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .update .box .details span .heading{
+    width: auto;
+    margin-right: 1rem;
+  }
+
+  .update .box .details span .paragraph{
+    width: auto;
   }
 }
 

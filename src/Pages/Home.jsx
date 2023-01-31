@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import { Link } from "react-router-dom";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 const Home = () => {
@@ -18,10 +19,43 @@ const Home = () => {
                                 <h1 className="heading">Implementing a Web Security Solutions for both Local and international Customers.</h1>
                                 <p className="paragraph">Careful Watchers is a Web Penetration Testing Company that helps you identify and fix the latest security issues keeping your web application safe using a combination of manual and automated penetration Testing.
                                 </p>
-                                <form action="#" className="form">
-                                    <label htmlFor="#"><input type="email" placeholder="Email"/></label>
-                                    <label htmlFor="#"><button>Join Waitlist</button></label>
-                                </form>
+                                
+                                <Link to='/register'><button>Join Waitlist</button></Link>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="section update">
+                    <div className="wrapper">
+                        <div className="boxes">
+                            <div className="box">
+                                <span>Subject: Payment Details update</span>
+                                <div className="details">
+                                    <div className="top">
+                                        <div className="circle"><h3 className="heading">G</h3></div>
+                                        <div className="text">
+                                            <h3 className="heading">Gavin Bell {`<gavin@example.com>`}</h3>
+                                            <p className="paragraph">To: finance@breachless.ai</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="colored-bg">
+                                        <h3 className="heading">This may be phishing through a hacked email account.</h3>
+                                        <p className="paragraph">Gavin does not work in the finance department at ExampleCo.</p>
+                                        <span><h3 className="heading">Action:</h3><p className="paragraph">Verify this request through a different form of communication, such as a direct phone call or email to another employee at ExampleCo.</p></span>
+                                    </div>
+
+                                    <p className="paragraph">Hi Corben,</p>
+                                    <p className="paragraph">Our bank account has recently changed. Please use the following bank information for all future payments:</p>
+
+                                    <span><h3 className="heading">Account number:</h3><p className="paragraph">1234567890</p></span>
+                                    <span><h3 className="heading">Routing number:</h3><p className="paragraph">012345678</p></span>
+
+                                    <p className="paragraph">Failure to update will result in service termination.</p>
+                                    <p className="paragraph">Thanks,</p>
+                                    <p className="paragraph">Gavin</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -211,10 +245,7 @@ const Home = () => {
                                 <span>Waitlist Sign Up</span>
                                 <h1 className="heading">We have got you covered!</h1>
                                 <p className="paragraph">We are in business to design Web Security solutions for ourvarious clients – domestic and corporate. Asides from ourccore services, we also offer consultancy, training and technical support to our numerous clients</p>
-                                <form action="#" className="form">
-                                    <label htmlFor="#"><input type="email" placeholder="Email"/></label>
-                                    <label htmlFor="#"><button>Join Waitlist</button></label>
-                                </form>
+                                <Link to='/register'><button>Join Waitlist</button></Link>
                             </div>
                         </div>
                     </div>
