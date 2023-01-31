@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-box">
-                <h3 className="heading">Target Audience</h3>
-                <p className="paragraph">Business and IT professionals involved in making cyber security decisions and product purchases. Consultants advising buyers of IT security products.</p>
+                <h3 className="heading">Thank you for your interest in our penetration testing services and for joining our waiting list!</h3>
+                <p className="paragraph"> We're working hard to optimize our services so that we can better serve our customers, and we're hoping for long-term success.</p>
             </div>
 
             <div className="footer-box links">
