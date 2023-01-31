@@ -72,8 +72,7 @@ const Home = () => {
 
                 <section className="section faq">
                     <div className="wrapper">
-                        <span>FAQ</span>
-                        <h3 className="sub-heading">Frequently Asked Questions</h3>
+                        <h3 className="sub-heading">Frequently Asked Questions (FAQ) </h3>
                         <div className="boxes">
                             <div className={`box ${faq === 1 ? "drop" : ""}`} onClick={()=>{accordion(1)}}>
                                 <div className={`top`}>
