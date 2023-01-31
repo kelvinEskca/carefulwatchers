@@ -375,7 +375,7 @@ button{
 }
 
 .update .box .top .text{
-  width: 94%;
+  width: 77%;
 }
 
 .update .box .top .text .heading{
@@ -535,6 +535,10 @@ button{
 
   .update .box .details span .paragraph{
     width: auto;
+  }
+
+  .update .box .top .text{
+    width: 94%;
   }
 }
 
