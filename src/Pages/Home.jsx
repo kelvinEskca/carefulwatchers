@@ -60,10 +60,20 @@ const Home = () => {
 
                 <section className="section features">
                     <div className="wrapper">
-                        <span>Problem</span>
-                        <h3 className="sub-heading">Web app monitoring and audit services are highly required due to security concerns raised by the rising popularity of websites with web applications. The likelihood of having harmful information increases as web applications are more easily created and shared, Careful Watchers offers a realtime web security solutions as listed below:</h3>
-                        <span>Our Solution</span>
-                        <h3 className="sub-heading"><b>Vulnerability scanning and Assessment</b>, <b>Hot Based Scanning</b>, <b>Database Scanning</b>, <b>Full Domain Directory Enumeration.</b>,<b>Cloud Hosting Vulnerability Enumeration.</b>, <b>Remediation, Mitigation Of Threats</b>,<b>and Removal Of Virus/Malware and more</b></h3>
+                        <div className="boxes">
+                            <div className="box">
+                                <img src="../images/problem.png" alt="problem" />
+                                <span>Problem</span>
+                                <h3 className="sub-heading">Web app monitoring and audit services are highly required due to security concerns raised by the rising popularity of websites with web applications. The likelihood of having harmful information increases as web applications are more easily created and shared, Careful Watchers offers a realtime web security solutions as listed:</h3>
+                            </div>
+
+                            <div className="box">
+                                <img src="../images/solution.png" alt="solution" />
+                                <span>Our Solution</span>
+                                <h3 className="sub-heading"><b>Vulnerability scanning and Assessment</b>, <b>Hot Based Scanning</b>, <b>Database Scanning</b>, <b>Full Domain Directory Enumeration.</b>,<b>Cloud Hosting Vulnerability Enumeration.</b>, <b>Remediation, Mitigation Of Threats</b>,<b>and Removal Of Virus/Malware and more</b></h3>
+                            </div>
+                        </div>
+                        
                     </div>
                 </section>
 
@@ -226,8 +236,13 @@ const Home = () => {
                             <div className="box">
                                 <span>Waitlist Sign Up</span>
                                 <h1 className="heading">We have got you covered!</h1>
-                                <p className="paragraph">We are in business to design Web Security solutions for ourvarious clients – domestic and corporate. Asides from ourccore services, we also offer consultancy, training and technical support to our numerous clients</p>
+                                <p className="paragraph">We are in business to design Web Security solutions for ourvarious clients - domestic and corporate. Asides from ourccore services, we also offer consultancy, training and technical support to our numerous clients</p>
                                 <Link to='/register'><button>Join Waitlist</button></Link>
+                            </div>
+
+                            <div className="box">
+                                <h3 className="heading">Thank you for your interest in our penetration testing services and for joining our waiting list!</h3>
+                                <p className="paragraph"> We're working hard to optimize our services so that we can better serve our customers, and we're hoping for long-term success.</p>
                             </div>
                         </div>
                     </div>
