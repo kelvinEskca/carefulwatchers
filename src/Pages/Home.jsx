@@ -42,7 +42,7 @@ const Home = () => {
 
                                     <div className="colored-bg">
                                         <h3 className="heading">Hi vulnerable@example.com Team,</h3>
-                                        <p className="paragraph">We are Careful Watchers, a group of  cybersecurity professionals that help organizations identify vulnerabilities and do well by reporting them so they could be fix.</p>
+                                        <p className="paragraph">We are Careful Watchers, a group of  cybersecurity professionals that help organizations identify vulnerabilities and do well by reporting them so they could be fixed.</p>
                                         <span><p className="paragraph">In our recent findings, a critical vulnerability was identified on your domain (website)</p></span>
                                     </div>
 
