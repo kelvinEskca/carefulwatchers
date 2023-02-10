@@ -17,7 +17,7 @@ const Footer = () => {
                 <ul className="list">
                     <li><Link to={`https://www.facebook.com/carefulwatchers`}><img src="../images/icons8-facebook-30.png" alt="icons8-facebook-30" /></Link></li>
                     <li><Link to={`https://twitter.com/carefulwatchers`}><img src="../images/icons8-twitter-30.png" alt="icons8-twitter-30" /></Link></li>
-                    <li><Link to={`https://www.linkedin.com/company/carefulwatchers/`}><img src="../images/icons8-instagram-30.png" alt="icons8-instagram-30" /></Link></li>
+                    <li><Link to={`https://www.instagram.com/carefulwatcher/`}><img src="../images/icons8-instagram-30.png" alt="icons8-instagram-30" /></Link></li>
                     <li><Link to={`https://www.linkedin.com/company/carefulwatchers/`}><img src="../images/icons8-linkedin-30.png" alt="icons8-linkedin-30" /></Link></li>
                 </ul>
             </div>
