@@ -14,7 +14,7 @@ const Register = () => {
                             </div>
 
                             <div className="box">
-                                <form action="#" className="form">
+                                <form action="https://formsubmit.co/support@carefulwatchers.co.uk" method="POST" className="form">
                                     <div className="label-row">
                                         <label htmlFor="#">
                                             <input type="text" placeholder="First Name" />
